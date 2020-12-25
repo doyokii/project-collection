@@ -59,7 +59,7 @@ public class MessageExchangeService {
       send_sendMessage(message);
       return recv_sendMessage();
     }
-);
+
 
     public void send_sendMessage(String message) throws org.apache.thrift.TException
     {
